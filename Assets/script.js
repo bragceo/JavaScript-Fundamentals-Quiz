@@ -130,7 +130,8 @@ var renderStartPage = function () {
   }
 }
 
-//every second, check if game-over is true, or if there is time left. Start time at 75. 
+//create the timer functionality. We can use the setInterval function to decrement the time every second until it reaches 0. We can display the time remaining to the user on the page.
+// every second, check if game-over is true, or if there is time left. Start time at 75. 
 var setTime = function () {
   timeleft = 75;
 
