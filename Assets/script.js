@@ -109,26 +109,20 @@ var questions = [  {    q: "What is the result of `1 + 2`?",    a: "3",    choic
 
 
   //if go back button is hit on high score page
-var renderStartPage = function () {
-  containerHighScoresEl.classList.add("hide")
-  containerHighScoresEl.classList.remove("show")
-  containerStartEl.classList.remove("hide")
-  containerStartEl.classList.add("show")
-  containerScoreEl.removeChild(containerScoreEl.lastChild)
-  QuestionIndex = 0
-  gameover = ""
-  timerEl.textContent = 0 
-  score = 0
-
-  if (correctEl.className = "show") {
-      correctEl.classList.remove("show");
-      correctEl.classList.add("hide")
+  var renderStartPage = function() {
+    containerHighScoresEl.classList.add("hide");
+    containerHighScoresEl.classList.remove("show");
+    containerStartEl.classList.remove("hide");
+    containerStartEl.classList.add("show");
+    containerScoreEl.lastChild.remove();
+    QuestionIndex = 0;
+    gameover = "";
+    timerEl.textContent = 0;
+    score = 0;
+    correctEl.classList.toggle("show", false);
+    wrongEl.classList.toggle("show", false);
   }
-  if (wrongEl.className = "show") {
-      wrongEl.classList.remove("show");
-      wrongEl.classList.add("hide");
-  }
-}
+  
 
 //create the timer functionality. We can use the setInterval function to decrement the time every second until it reaches 0. We can display the time remaining to the user on the page.
 // every second, check if game-over is true, or if there is time left. Start time at 75. 
