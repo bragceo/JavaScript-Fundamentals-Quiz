@@ -30,81 +30,82 @@ var QuestionIndex = 0
 
 
 // The array of questions for our quiz game.
-var questions = [  {    q: "What is a closure in JavaScript?",    a: "2. A function that has access to variables in its outer scope.",    choices: [      {        choice: "1. A function that has access to variables in its inner scope.",      },      {        choice: "2. A function that has access to variables in its outer scope.",      },      {        choice: "3. A function that has no access to variables in its outer scope.",      },      {        choice: "4. A function that has access to variables in a different function's scope.",      },    ],
+var questions = [  {    q: "What is the result of `1 + 2`?",    a: "3",    choices: [      {        choice: "1",      },      {        choice: "2",      },      {        choice: "3",      },      {        choice: "4",      },    ],
   },
   {
-    q: "What is hoisting in JavaScript?",
-    a: "1. The process of moving function and variable declarations to the top of the scope before code execution.",
+    q: "What is a boolean in JavaScript?",
+    a: "A data type that represents either true or false.",
     choices: [
       {
-        choice: "1. The process of moving function and variable declarations to the top of the scope before code execution.",
+        choice: "A method for manipulating arrays.",
       },
       {
-        choice: "2. The process of removing unused code during compilation.",
+        choice: "A variable that can hold multiple values.",
       },
       {
-        choice: "3. The process of combining multiple files into a single file.",
+        choice: "A data type that represents either true or false.",
       },
       {
-        choice: "4. The process of running code as soon as the page loads.",
+        choice: "A loop that executes a fixed number of times.",
       },
     ],
   },
   {
-    q: "What is the difference between let and var in JavaScript?",
-    a: "3. let has block scope and var has function scope.",
+    q: "What is an array in JavaScript?",
+    a: "An ordered collection of values.",
     choices: [
       {
-        choice: "1. var has block scope and let has function scope.",
+        choice: "A type of function that returns a value.",
       },
       {
-        choice: "2. var is used for constants and let is used for variables.",
+        choice: "A special character that separates values in a string.",
       },
       {
-        choice: "3. let has block scope and var has function scope.",
+        choice: "An ordered collection of values.",
       },
       {
-        choice: "4. let is used for constants and var is used for variables.",
+        choice: "A way to create objects in JavaScript.",
       },
     ],
   },
   {
-    q: "What is the typeof operator used for in JavaScript?",
-    a: "4. To check the data type of a value.",
+    q: "What is the purpose of the `if` statement in JavaScript?",
+    a: "To execute code conditionally based on a true or false value.",
     choices: [
       {
-        choice: "1. To declare a new variable.",
+        choice: "To create a new variable.",
       },
       {
-        choice: "2. To check if a variable is defined.",
+        choice: "To loop over an array.",
       },
       {
-        choice: "3. To check if a value is truthy or falsy.",
+        choice: "To execute code unconditionally.",
       },
       {
-        choice: "4. To check the data type of a value.",
+        choice: "To execute code conditionally based on a true or false value.",
       },
     ],
   },
   {
-    q: "What is the difference between == and === in JavaScript?",
-    a: "2. == only checks for value equality, while === checks for both value and type equality.",
+    q: "What is the purpose of the `return` statement in JavaScript?",
+    a: "To return a value from a function.",
     choices: [
       {
-        choice: "1. == checks for both value and type equality, while === only checks for value equality.",
+        choice: "To stop the execution of a loop.",
       },
       {
-        choice: "2. == only checks for value equality, while === checks for both value and type equality.",
+        choice: "To jump to a different part of the code.",
       },
       {
-        choice: "3. == and === both check for value and type equality, but === is stricter.",
+        choice: "To define a new variable.",
       },
       {
-        choice: "4. == and === are interchangeable and have the same meaning.",
+        choice: "To return a value from a function.",
       },
     ],
   },
 ];
+
 
 
   //if go back button is hit on high score page
