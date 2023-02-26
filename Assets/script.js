@@ -30,36 +30,82 @@ var QuestionIndex = 0
 
 
 // The array of questions for our quiz game.
-var questions = [
-  { q: 'Arrays in Javascript can be used to store __________.', 
-    a: '4. all of the above', 
-    choices: [{choice: '1. numbers'}, {choice: '2. booleans'}, {choice: '3. strings'}, {choice: '4. all of the above'}]
+var questions = [  {    q: "What is a closure in JavaScript?",    a: "2. A function that has access to variables in its outer scope.",    choices: [      {        choice: "1. A function that has access to variables in its inner scope.",      },      {        choice: "2. A function that has access to variables in its outer scope.",      },      {        choice: "3. A function that has no access to variables in its outer scope.",      },      {        choice: "4. A function that has access to variables in a different function's scope.",      },    ],
   },
-  { q: 'Inside which HTML element do we put the javascript?', 
-    a: '3. <script>', 
-    choices: [{choice: '1. <h1>'}, {choice: '2. <js>'}, {choice: '3. <script>'}, {choice: '4. <head>'}]
+  {
+    q: "What is hoisting in JavaScript?",
+    a: "1. The process of moving function and variable declarations to the top of the scope before code execution.",
+    choices: [
+      {
+        choice: "1. The process of moving function and variable declarations to the top of the scope before code execution.",
+      },
+      {
+        choice: "2. The process of removing unused code during compilation.",
+      },
+      {
+        choice: "3. The process of combining multiple files into a single file.",
+      },
+      {
+        choice: "4. The process of running code as soon as the page loads.",
+      },
+    ],
   },
-  { q: 'In the code -- setinterval(time(),1000) -- what is time()?', 
-    a: '1. callback function', 
-    choices: [{choice: '1. callback function'}, {choice: '2. undefined'}, {choice: '3. variable'}, {choice: '4. all of the above'}]
+  {
+    q: "What is the difference between let and var in JavaScript?",
+    a: "3. let has block scope and var has function scope.",
+    choices: [
+      {
+        choice: "1. var has block scope and let has function scope.",
+      },
+      {
+        choice: "2. var is used for constants and let is used for variables.",
+      },
+      {
+        choice: "3. let has block scope and var has function scope.",
+      },
+      {
+        choice: "4. let is used for constants and var is used for variables.",
+      },
+    ],
   },
-  { q: 'What syntax would call a function?', 
-    a: '4. function()', 
-    choices: [{choice: '1. var function'}, {choice: '2. function'}, {choice: '3. call function'}, {choice: '4. function()'}]
+  {
+    q: "What is the typeof operator used for in JavaScript?",
+    a: "4. To check the data type of a value.",
+    choices: [
+      {
+        choice: "1. To declare a new variable.",
+      },
+      {
+        choice: "2. To check if a variable is defined.",
+      },
+      {
+        choice: "3. To check if a value is truthy or falsy.",
+      },
+      {
+        choice: "4. To check the data type of a value.",
+      },
+    ],
   },
-  { q: 'When did javascript first appear?', 
-    a: '1. 1995', 
-    choices: [{choice: '1. 1995'}, {choice: '2. Roaring twenties'}, {choice: '3. 2005'}, {choice: '4. 2000'}]
-  },
-  { q: 'What does DOM stand for?', 
-    a: '2. Document Object Model', 
-    choices: [{choice: '1. Do Overnight Modules'}, {choice: '2. Document Object Model'}, {choice: '3. Divas Obviously Model'}, {choice: '4. Do Oo Mo'}]
-  },
-  { q: 'What is getItem commonly used for?', 
-    a: '2. local storage', 
-    choices: [{choice: '1. adding drama'}, {choice: '2. local storage'}, {choice: '3. online shopping'}, {choice: '4. naming a variable'}]
+  {
+    q: "What is the difference between == and === in JavaScript?",
+    a: "2. == only checks for value equality, while === checks for both value and type equality.",
+    choices: [
+      {
+        choice: "1. == checks for both value and type equality, while === only checks for value equality.",
+      },
+      {
+        choice: "2. == only checks for value equality, while === checks for both value and type equality.",
+      },
+      {
+        choice: "3. == and === both check for value and type equality, but === is stricter.",
+      },
+      {
+        choice: "4. == and === are interchangeable and have the same meaning.",
+      },
+    ],
   },
 ];
+
 
   //if go back button is hit on high score page
 var renderStartPage = function () {
