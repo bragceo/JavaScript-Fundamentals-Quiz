@@ -50,6 +50,15 @@ The following animation demonstrates the application functionality:
 
 ## Examples 
 
+https://user-images.githubusercontent.com/119948453/221667640-0a9e40aa-408d-4224-bf3f-b59aa6f8190f.mov
+
+
+<img width="1552" alt="Screen Shot 2023-02-27 at 11 51 08 AM" src="https://user-images.githubusercontent.com/119948453/221667710-49bda1cb-a568-4b5d-a219-cb8da3edf44f.png">
+<img width="1552" alt="Screen Shot 2023-02-27 at 11 51 26 AM" src="https://user-images.githubusercontent.com/119948453/221667713-2b939cd6-c610-4d5d-a7ed-48c23f564475.png">
+<img width="1552" alt="Screen Shot 2023-02-27 at 11 51 40 AM" src="https://user-images.githubusercontent.com/119948453/221667716-9c349bfb-8173-4fd7-9f9b-8b50570f4ce3.png">
+<img width="1552" alt="Screen Shot 2023-02-27 at 11 51 55 AM" src="https://user-images.githubusercontent.com/119948453/221667721-ed7aae99-70f6-4dbb-8bc9-a92dfb5e9564.png">
+<img width="1552" alt="Screen Shot 2023-02-27 at 11 52 08 AM" src="https://user-images.githubusercontent.com/119948453/221667723-9abfbbc0-6fe3-4061-a03a-0f0f9afc5653.png">
+
 
 ## Deployed Application 
 
