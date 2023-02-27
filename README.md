@@ -64,6 +64,6 @@ https://user-images.githubusercontent.com/119948453/221667640-0a9e40aa-408d-4224
 
 https://bragceo.github.io/JavaScript-Fundamentals-Quiz/
 
-## Note on external additional help and sources.
+## Note on external help and additional sources.
 
 Thank you to Bootcamp tutor Erik Hoverstein, and several of the AskBCS Learning Assistants for helping me digest and understand concepts, answering specifc questions, and reviewing sections of my code I was unsure of. In addition, I got a lot if guidance from the Youtube Series Web Dev Simplified (how to build a quiz app with javascript). 
