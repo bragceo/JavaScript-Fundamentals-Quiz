@@ -1,5 +1,15 @@
 # JavaScript Fundamentals Code Quiz
 
+## Description
+
+The JavaScript quiz is a web-based application that presents a quiz game to the user. The quiz game has a total of 5 multiple-choice questions related to the fundamentals of JavaScript, and the user must answer all of them correctly to receive a high score. The user has a limited amount of time to complete the quiz, which is set at 75 seconds. The quiz is timed and there is a timer on the screen to show the time remaining. The user can see the question on the screen, along with multiple answers to choose from.
+
+If the user selects the correct answer, their score increases by 7 points, and if they select the wrong answer, their score decreases by 1 point, and they lose 3 seconds from the timer.
+At the end of the quiz, the user is presented with their final score, and they are given the option to submit their initials to be included in the high score record. The high score board allows the user to track their personal scores, and it displays the top 5 scores.
+
+The web page is designed to work with different screen sizes, and the user can access it through a single link. The code is written in JavaScript and it uses a variety of techniques and functions to create the quiz game and to keep track of the user's score and time.
+
+
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
@@ -38,4 +48,5 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
 
+## Deployed Application 
 
