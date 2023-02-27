@@ -103,6 +103,7 @@ var questions = [  {    q: "What is the result of `1 + 2`?",    a: "3",    choic
         choice: "To return a value from a function.",
       },
     ],
+   // tempChoices : ["one", "two", "three"]
   },
 ];
 
@@ -151,6 +152,7 @@ var timercheck = setInterval(function() {
 
   }, 1000)
 }
+
 
 var startGame = function() {
   //add classes to show/hide start and quiz screen
