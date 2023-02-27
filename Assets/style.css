@@ -53,6 +53,10 @@ header h4 {
   margin: auto;
 }
 
+.section {
+  display: flex;
+}
+
 h1 {
   color: var(--primary);
   font-size: 3rem;
@@ -99,11 +103,7 @@ p {
   border: 2px solid var(--secondary);
 }
 
-.show {
-  display: flex;
-}
-
-.hide {
+body .hide {
   display: none;
 }
 
@@ -136,7 +136,8 @@ p {
   cursor: pointer;
 }
 
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   outline: none;
   border: none;
   box-shadow: 0 0 grey;
@@ -160,53 +161,59 @@ p {
   font-size: 1vw;
 }
 
-  
-  /* Correct/Wrong Styling */
-  .banner {
-    font-size: 25px;
-    text-align: center;
-    color: rgba(199, 187,
-    187, 0.8);
-    font-style: italic;
-    margin: 0 100px;
-    }
-    
-    .banner h2 {
-      border-top: 2px solid rgba(199, 187, 187, 0.8);
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 5px;
-      }
-      
-      /* List for High Scores */
-      ol {
-      list-style-type: number;
-      }
-      
-      li:nth-child(odd) {
-      background-color: rgba(228, 151, 164, 0.5);
-      }
-      
-      li {
-      font-size: 4vw;
-      }
-      
-      /* Media query for smaller screens */
-      @media screen and (max-width: 1024px) {
-      .btn {
-      width: 100%;
-      font-size: 3vw;
-      }
-      
-      #question {
-      font-size: 4.5vw;
-      }
-      
-      h1 {
-      font-size: 4.5vw;
-      }
-      
-      p {
-      font-size: 3vw;
-      }
-      }
+/* Correct/Wrong Styling */
+.banner {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(199, 187, 187, 0.8);
+  font-style: italic;
+  margin: 0 100px;
+}
+
+.banner h2 {
+  border-top: 2px solid rgba(199, 187, 187, 0.8);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* List for High Scores */
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li:nth-child(odd) {
+  background-color: #ddcbef;
+}
+
+li {
+  font-size: 2vw;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.hs-btns {
+  display: flex;
+  gap: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1024px) {
+  .btn {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  #question {
+    font-size: 4.5vw;
+  }
+
+  h1 {
+    font-size: 4.5vw;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+}
